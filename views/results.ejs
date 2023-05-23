@@ -1,0 +1,37 @@
+<%- include('partials/header'); -%>
+<div class="container-fluid" id="resultsdiv">
+    <div class="row" id="primary">
+        <div class="col-lg-6" id="primarydiv1">
+            <h1 id="city"><%= cityName%>, <%= countryCode %></h1>
+            <h2 id="temp"><%= temperature %>°C</h2>
+            <p id="realfeel">Real Feel: <%= realFeel %>°C</p>
+        </div> 
+        <div class="col-lg-6" id="primarydiv2">
+            <img src="<%= weatherImage %>" alt="Weather_image.png" id="imageicon">
+            <br>
+            <h6 id="description"><%= desc %></h6>          
+        </div>      
+    </div>
+    <div class="row" id="secondary">
+        <div class="col-lg-6" id="secondarydiv1">
+            <h6>Min. Temp: <%= minTemperature %>°C </h6>
+            <h6>Max. Temp: <%= maxtemperature %>°C</h6>
+            <h6>Wind Speed: <%= wind %> mph</h6>
+            <h6>Humidity: <%= humidity %> %</h6>
+        </div>
+        <div class="col-lg-6" id="secondarydiv2">
+            <table>
+                <tr>
+                    <th class="timing">Sunrise</th>
+                    <th class="timing">Sunset</th>
+                </tr>
+                <tr>
+                    <td class="timing"><%= sunrise %></td>
+                    <td class="timing"><%= sunset %></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<%- include('partials/footer'); -%>

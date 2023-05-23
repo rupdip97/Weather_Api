@@ -1,0 +1,236 @@
+body{
+    background-color: #F9F5F6;
+    height: 1000px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-top: auto;
+    text-align: center;
+    background-color: #0C134F;
+    width: 100%;
+    height: 50px;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+
+nav ul{
+    padding-right: 55px;
+}
+
+footer p{
+    color: #E1D7C6;
+}
+
+
+
+
+/***************************Class styling************************************/
+
+.footer-padding{
+    padding: 2px;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #DB005B;
+}
+.navbar{
+    width: 100%;
+    margin: 0%;
+ /*   background-color: #B8E7E1;*/
+    background-image: url('../images/weather3.png');
+    box-shadow: 10px 10px 30px grey;
+    
+
+}
+.navbar-toggler{
+    color: #0C134F;
+    background-color: #F9F5F6;
+    border: 1px;
+    padding-top: 12px;
+}
+.navbar-brand{
+    color: #DB005B;
+    padding-top: 10px;
+    padding-left: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.row{
+    margin: 10px;
+}
+
+.linkicon{
+    margin: 3px;
+    color: #DB005B;
+}
+.timing{
+    margin: 10px;
+    padding: 5px;
+}
+
+/*********************************ID SELECTOR*********************************************/
+#bodyconatiner{
+    min-height: max-content;
+}
+#formdiv h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #1b2b46;
+    font-size: larger;
+    text-align: left;
+    padding-top: 5px;
+    margin: auto;
+}
+
+#formdiv input{
+    width: 50%;
+    text-align: left;
+/*    position: relative;
+    margin: auto;*/
+}
+
+#getweatherbtn{
+    margin: auto;
+    display: inline-block;
+}
+
+#bodyconatiner{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+}
+
+#homediv{
+    margin: 110px auto auto auto;
+    width: 30%;
+    height: 60%;
+    padding-top: 70px;
+    box-shadow: 20px 20px 50px grey;
+    background-image: url('../images/umbrella_home.png');
+}
+
+#aboutsdiv{
+    margin: 110px auto auto auto;
+    width: 45%;
+    height: 60%;
+    padding-top: 70px;
+    background-color: #E1D7C6;
+    box-shadow: 20px 20px 50px grey;
+    background-image: url('../images/background_abouts_contacts.PNG');
+}
+
+#aboutsdiv h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0C134F;
+}
+
+#aboutsdiv p{
+    text-align: center;
+    padding: 2px, 20px 2px 20px;
+}
+
+#contactdiv{
+    margin: 110px auto auto auto;
+    width: 45%;
+    height: 60%;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 70px;
+    background-color: #E1D7C6;
+    box-shadow: 20px 20px 50px grey;
+    background-image: url('../images/background_abouts_contacts.PNG');
+}
+
+#contactdiv p{
+        text-align: center;
+        padding: 2px, 20px 2px 20px;
+}
+
+#contactdiv h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0C134F;
+}
+
+#resultsdiv{
+    margin: 55px auto auto auto;
+    width: 45%;
+/*    height: 75%;*/
+    min-height: 75%;
+    box-shadow: 20px 20px 50px grey;
+    background-image: url('../images/background_results.png');
+    overflow: hidden;
+ /*   text-align: center;*/
+}
+
+#imageicon{
+    border-radius: 100%;
+    margin: 25px auto auto 35px;
+}
+
+#city{
+display: inline-block;
+width: 100%;
+color: #3C486B;
+margin: 45px 5px 3px 45px ;
+}
+
+#description{
+    padding-left: 55px;
+    text-align: left;
+}
+
+#temp{
+/*    display: inline-block;*/
+    width: 20%;
+    margin: 3px 5px 5px 45px ;
+    color: #FC2947;
+}
+
+#realfeel{
+    width: 50%;
+    margin: 7px 5px 0px 45px ;
+    color: #FC2947;
+}
+
+#primary{
+    padding: 2px;
+}
+
+#secondary{
+    padding: 2px;
+    margin-top: 80px;
+}
+
+#secondarydiv1 h6{
+    margin: 20px 5px 3px 45px ; 
+}
+#secondarydiv2 table{
+    margin: 7px 5px 3px 25px ; 
+}
+
+#linksdiv{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0C134F;
+}
+
+/*@media only screen and (max-width: 600px){
+    #resultsdiv{
+        height: 1500px;
+    }
+}*/
+
+
