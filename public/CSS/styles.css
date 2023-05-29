@@ -1,10 +1,10 @@
 body{
     background-color: #F9F5F6;
-    height: 1000px;
+    height: 70rem;
 }
 
 footer{
-    position: fixed;
+   position: fixed;
     bottom: 0;
     margin-top: auto;
     text-align: center;
@@ -25,10 +25,6 @@ nav ul{
 footer p{
     color: #E1D7C6;
 }
-
-
-
-
 /***************************Class styling************************************/
 
 .footer-padding{
@@ -53,7 +49,7 @@ footer p{
 
 }
 .navbar-toggler{
-    color: #0C134F;
+    color: #E1D7C6;
     background-color: #F9F5F6;
     border: 1px;
     padding-top: 12px;
@@ -112,10 +108,10 @@ footer p{
 }
 
 #homediv{
-    margin: 110px auto auto auto;
+    margin: 8rem auto auto auto;
     width: 30%;
-    height: 60%;
-    padding-top: 70px;
+    height: 40%;
+    padding-top: 40px;
     box-shadow: 20px 20px 50px grey;
     background-image: url('../images/umbrella_home.png');
 }
@@ -166,7 +162,7 @@ footer p{
 
 #resultsdiv{
     margin: 55px auto auto auto;
-    width: 45%;
+    width: 50%;
 /*    height: 75%;*/
     min-height: 75%;
     box-shadow: 20px 20px 50px grey;
@@ -227,10 +223,51 @@ margin: 45px 5px 3px 45px ;
     color: #0C134F;
 }
 
-/*@media only screen and (max-width: 600px){
-    #resultsdiv{
-        height: 1500px;
-    }
-}*/
+#flexboxcities{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: start;
+    padding-top: 3rem;
+    margin-top: 1rem;
+    height: 25rem;
+}
+#flexboxcities h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    color: #DB005B;
+    padding-bottom: 2rem;
+}
+
+#flexboxcities h4{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+
+#citishortcut{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+    height: 10rem;
+    width: 60rem;
+    margin: 10px 0px 0px 0px;
+    justify-content: space-evenly;
+}
+
+#kolbtn{
+    border-radius: 20%;
+    background-image: url('../images/istockphoto-1203104555-1024x1024.jpg');
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
 
 

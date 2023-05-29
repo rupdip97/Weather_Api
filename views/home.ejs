@@ -1,8 +1,38 @@
 <%- include('partials/header'); -%>
+<div class="container" id="flexboxcities">
+    <h1>Need Weather Info? Get Here Instantly!!</h1>
+    <h4>Search among popular cities</h4>
+    <div class="container" id="citishortcut">
+        <form action="/" method="post">
+            <input type="submit" value="Kolkata" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Delhi" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Mumbai" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Chennai" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Bangalore" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Hyderabad" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Pune" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Ahmedabad" name="City" class="btn btn-outline-dark btn-lg">
+        </form>
+    </div>
+</div>
 <div id="homediv" class="container-fluid">
     <form action="/" method="post">
         <div id="formdiv" class="form-group">
-            <h1>Choose your city</h1>
+            <h1>Not in the list? Type in your city name here</h1>
             <br>
             <input class="form-control" type="text" name="City" placeholder="City Name">
             <br>
@@ -10,4 +40,4 @@
         </div>
     </form>
 </div>
-<%- include('partials/footer'); -%>
+<%- include('partials/footer'); -%>.
